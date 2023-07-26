@@ -2,11 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
-    fontFamily:{
-      poppins: ["Poppins", "sans-serif"],
+    extend: {
+      colors: {
+        body: "#050505"
+      }
     },
+    fontFamily:{
+      poppins: ["Poppins", "sans-serif"]
+  }
   },
   plugins: [],
 }
-
+// フォントをpoppins:　["Poppins", "sans-serif"]で指定
