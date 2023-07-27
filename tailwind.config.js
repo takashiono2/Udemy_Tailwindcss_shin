@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      colors: {
+      colors:{
         body: "#050505"
       }
     },
@@ -13,4 +13,4 @@ module.exports = {
   },
   plugins: [],
 }
-// フォントをpoppins:　["Poppins", "sans-serif"]で指定
+// バックグラウンドカラーをbody: "#050505"にしたい
