@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// 色をカスタマイズsecondary: "#9191A4",
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
