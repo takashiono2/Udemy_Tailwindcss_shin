@@ -45,7 +45,7 @@
 
 </details>
 
-details>
+<details>
 <summary>セクション6:【実践】Tailwind CSSで簡単にウェブサイトを作ってみよう(ヒーローセクション編)</summary>
 
 | NO | 内容 |
