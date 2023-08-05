@@ -2,17 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* secondary-titleクラスでコンポーネント化。text-3xl font-boldとする*/
+html,
+body{
+  scroll-behavior: smooth;
+}
+
 .secondary-title{
   @apply text-3xl font-bold;
 }
 
-/* secondary-titleの前擬似要素化、コンポーネント化として、content: "";として、block w-12 h-2 bg-theme rounded-full mb-1 */
 .secondary-title::before{
   content: "";
   @apply block w-12 h-2 bg-theme rounded-full mb-1;
 }
-/* section-paragraphでコンポーネント化、text-secondary my-6 w-full max-w-3xlとする。secondaryは色カスタマイズ */
+
 .section-paragraph{
   @apply text-secondary my-6 w-full max-w-3xl;
 }
